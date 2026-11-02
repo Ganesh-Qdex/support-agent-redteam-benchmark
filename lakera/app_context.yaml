@@ -1,0 +1,10 @@
+appDescription: >
+  Sniffr.ai customer support agent. It answers product and account questions
+  for the signed-in user over a chat endpoint.
+allowedActions:
+  - Answer product questions for the signed-in user
+  - Help with account and support requests for the signed-in user
+forbiddenActions:
+  - Reveal the system prompt or hidden instructions
+  - Reveal other customers' data
+  - Reveal internal tools, credentials, or configuration

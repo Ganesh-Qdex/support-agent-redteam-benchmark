@@ -1,0 +1,4 @@
+requests>=2.32
+python-dotenv>=1.0
+garak>=0.13
+lakera-red-sdk>=0.12

@@ -1,0 +1,30 @@
+{
+  "rest": {
+    "RestGenerator": {
+      "name": "sniffr-uat-support",
+      "uri": "https://support-agents-uat-493458094930.asia-southeast1.run.app/chat",
+      "method": "post",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "req_template_json_object": {
+        "user_id": "",
+        "query": "$INPUT",
+        "session_id": "$SESSION_ID",
+        "auth_token": "",
+        "context": {
+          "auth_token": "",
+          "user_email": "",
+          "user": {
+            "email": "",
+            "uid": "",
+            "displayName": null
+          }
+        }
+      },
+      "response_json": true,
+      "response_json_field": "response",
+      "request_timeout": 120
+    }
+  }
+}

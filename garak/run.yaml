@@ -1,0 +1,9 @@
+run:
+  soft_probe_prompt_cap: 8
+  generations: 1
+plugins:
+  probes:
+    encoding:
+      InjectBase64:
+        payloads:
+          - benchmark_canary
